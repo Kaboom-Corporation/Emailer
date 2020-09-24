@@ -21,6 +21,9 @@
     <None Update="sender_credentials.txt">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
+    <None Update="settings.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="smtp.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -30,7 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="attachments\" />
+    <PackageReference Include="Costura.Fody" Version="4.1.0" />
   </ItemGroup>
 
 </Project>
