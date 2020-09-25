@@ -1,0 +1,2 @@
+# Emailer
+Mail distribution program
